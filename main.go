@@ -8,6 +8,8 @@ import (
     "os"
     "strings"
     "time"
+    
+    . "github.com/vitatea2023/ha-dns-client"
 )
 
 type CLIConfig struct {

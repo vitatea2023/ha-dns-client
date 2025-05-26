@@ -1,4 +1,4 @@
-module dns-client
+module github.com/vitatea2023/ha-dns-client
 
 go 1.23.0
 

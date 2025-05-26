@@ -1,4 +1,4 @@
-package main
+package dnsclient
 
 import (
     "context"
@@ -65,10 +65,10 @@ type DNSClient struct {
 // NewDNSClient creates a new DNS client with default configuration
 func NewDNSClient() *DNSClient {
     config := Config{
-        PrimaryDomain: "wangmai.yuhai.tech",
+        PrimaryDomain: "ssh.example.com",
         BackupDomains: []string{
-            "backup1.yuhai.tech",
-            "backup2.yuhai.tech",
+            "backup1.example.com",
+            "backup2.example.com",
         },
         DOHServers: map[string][]string{
             "dns.alidns.com": {"223.5.5.5", "223.6.6.6"},
