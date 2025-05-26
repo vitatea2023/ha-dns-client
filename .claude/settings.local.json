@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod init:*)",
+      "Bash(go get:*)",
+      "Bash(go build:*)",
+      "Bash(./dns-client --help)",
+      "Bash(./dns-client:*)",
+      "Bash(go mod:*)"
+    ],
+    "deny": []
+  }
+}
